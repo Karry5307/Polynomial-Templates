@@ -190,7 +190,6 @@ inline void trig(ll fd,ll *f,ll *res,ll type)
         res[i]=type?(texp[i]+texp2[i])%MOD:(texp[i]-texp2[i]+MOD)%MOD;
         res[i]=(li)res[i]*(type?inv2:inv2i)%MOD;
     }
-
 }
 int main()
 {
