@@ -175,6 +175,7 @@ inline void exp(ll fd,ll *f,ll *res)
         texp[i]=0,res[i]=i<fd?res[i]:0;
     }
 }
+// type = 0 is sin, type = 1 is cos
 inline void trig(ll fd,ll *f,ll *res,ll type)
 {
     ll inv2=499122177,inv2i=qpow(I<<1,MOD-2);
