@@ -30,6 +30,10 @@ inline ll read()
 inline void write(ll x,char ch=' ')
 {
     ll tp=0;
+    if(!x)
+    {
+        putchar('0'),putchar(ch);
+    }
     while(x)
     {
         sw[++tp]=x%10+'0',x/=10;
